@@ -1,7 +1,7 @@
 将XVWA封装成docker compose
 
-```
 一、docker-compose.yml
+```javascript
 web:
   build: .
   ports:
@@ -14,13 +14,17 @@ db:
   image: orchardup/mysql
   environment:
       MYSQL_DATABASE: xvwa
+```
 
 二、运行
+```javascript
 docker-compose up
+```
 
 三、访问
+```javascript
 http://127.0.0.1:8000/xvwa
-```··
+```
 
 Xtreme Vulnerable Web Application (XVWA) 
 =========================================
