@@ -2,7 +2,7 @@
 
 一、docker-compose.yml
 
-```
+```shell
 web:
   build: .
   ports:
@@ -19,7 +19,7 @@ db:
 
 二、运行
 
-```
+```shell
 docker-compose up
 ```
 
